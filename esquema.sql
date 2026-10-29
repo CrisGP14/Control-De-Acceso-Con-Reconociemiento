@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS bd_segurity;
+USE bd_segurity;
+CREATE TABLE IF NOT EXISTS accesos (
+    id      INT AUTO_INCREMENT PRIMARY KEY,
+    usuario VARCHAR(50) NOT NULL,
+    entrada DATETIME    NOT NULL
+);

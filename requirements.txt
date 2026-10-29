@@ -1,0 +1,8 @@
+# Dependencias del proyecto de reconocimiento facial
+# IMPORTANTE: se necesita la version "contrib" de OpenCV (incluye cv2.face).
+# No instalar junto con "opencv-python" (los dos paquetes chocan entre si).
+opencv-contrib-python>=4.1,<5
+numpy
+pyserial>=3.4
+mysql-connector-python>=8.0
+imutils   # solo lo usa capturandoRostros.py
